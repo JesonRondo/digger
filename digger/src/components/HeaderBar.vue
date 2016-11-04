@@ -2,11 +2,11 @@
   <div class="header-bar">
     <div class="sp-top">
       <div class="left">
-        <div class="item iconfont icon-list" href="javascript:;"></div>
+        <router-link to="/games" class="item iconfont icon-list"></router-link>
       </div>
       <div class="right">
-        <div class="item iconfont icon-search" href="javascript:;"></div>
-        <div class="item iconfont icon-boxlist" href="javascript:;"></div>
+        <div class="item iconfont icon-search"></div>
+        <router-link to="/" class="item iconfont icon-boxlist"></router-link>
       </div>
     </div>
     <div class="sp-bottom">

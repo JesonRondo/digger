@@ -10,17 +10,27 @@
         height: 100%;
       }
       body {
+        color: #333;
+        font-size: 12px;
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         background: rgb(237, 237, 237);
-        margin: 0;
       }
-      div, p {
+      body, div, p {
+        position: relative;
+        margin: 0;
+        padding: 0;
+      }
+      div, p, a {
         box-sizing: border-box;
       }
-      div {
+      div, a, p, img {
         display: flex;
+        flex: none;
+      }
+      img {
+        border: 0;
       }
       a {
         color: #333;
