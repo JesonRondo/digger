@@ -1,0 +1,27 @@
+{
+  "name": "databug",
+  "version": "0.0.1",
+  "description": "data bug",
+  "main": "index.js",
+  "keywords": [
+    "data"
+  ],
+  "scripts": {
+    "fetch": "node --harmony-async-await scripts/game.js",
+    "fetchall": "node scripts/allgame.js"
+  },
+  "author": "longzhou",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "koa": "^1.2.4",
+    "mysql2": "^1.1.1",
+    "observe.js": "^0.1.1",
+    "sequelize": "^3.24.7",
+    "superagent": "^2.3.0"
+  },
+  "devDependencies": {
+    "mysql": "^2.11.1",
+    "sequelize-auto": "^0.4.17"
+  }
+}

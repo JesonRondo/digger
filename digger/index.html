@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>digger</title>
+    <style>
+      html, body {
+        height: 100%;
+      }
+      body {
+        font-family: 'Avenir', Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background: rgb(237, 237, 237);
+        margin: 0;
+      }
+      div, p {
+        box-sizing: border-box;
+      }
+      div {
+        display: flex;
+      }
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+      @font-face {
+        font-family: "iconfont";
+        src: url('static/iconfont.woff?t=1478161258787') format('woff'), /* chrome, firefox */
+        url('static/iconfont.ttf?t=1478161258787') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+        url('static/iconfont.svg?t=1478161258787#iconfont') format('svg'); /* iOS 4.1- */
+      }
+      .iconfont {
+        color: rgb(239, 60, 41);
+        font-family:"iconfont" !important;
+        font-size:16px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .icon-add:before { content: "\e693"; }
+      .icon-list:before { content: "\e694"; }
+      .icon-close:before { content: "\e695"; }
+      .icon-true:before { content: "\e696"; }
+      .icon-arrowright:before { content: "\e697"; }
+      .icon-arrowleft:before { content: "\e698"; }
+      .icon-arrowup:before { content: "\e699"; }
+      .icon-arrowdown:before { content: "\e69a"; }
+      .icon-minus:before { content: "\e69b"; }
+      .icon-minusactive:before { content: "\e69c"; }
+      .icon-time:before { content: "\e69d"; }
+      .icon-timeactive:before { content: "\e69e"; }
+      .icon-truesactive:before { content: "\e69f"; }
+      .icon-trues:before { content: "\e6a0"; }
+      .icon-truev:before { content: "\e6a4"; }
+      .icon-warmactive:before { content: "\e6a5"; }
+      .icon-warm:before { content: "\e6a6"; }
+      .icon-warmsactive:before { content: "\e6a7"; }
+      .icon-warms:before { content: "\e6a8"; }
+      .icon-closevactive:before { content: "\e6a9"; }
+      .icon-closev:before { content: "\e6aa"; }
+      .icon-downloadactive:before { content: "\e6ab"; }
+      .icon-download:before { content: "\e6ac"; }
+      .icon-search:before { content: "\e6af"; }
+      .icon-del:before { content: "\e6b0"; }
+      .icon-boxlist:before { content: "\e6b1"; }
+      .icon-user:before { content: "\e6b2"; }
+      .icon-unhappy:before { content: "\e6bd"; }
+      .icon-happy:before { content: "\e6be"; }
+      .icon-circular:before { content: "\e6c0"; }
+      .icon-square:before { content: "\e6c1"; }
+      .icon-triangle:before { content: "\e6c2"; }
+      .icon-pilot:before { content: "\e6c3"; }
+      .icon-pilot-active:before { content: "\e6c4"; }
+      .icon-position-active:before { content: "\e6c5"; }
+      .icon-position:before { content: "\e6c6"; }
+      .icon-talk:before { content: "\e6c7"; }
+      .icon-talk-active:before { content: "\e6c8"; }
+      .icon-star-active:before { content: "\e6c9"; }
+      .icon-star:before { content: "\e6ca"; }
+      .icon-loading:before { content: "\e6cb"; }
+      .icon-cloud:before { content: "\e6cc"; }
+      .icon-cloud-active:before { content: "\e6cd"; }
+      .icon-discover-active:before { content: "\e6ce"; }
+      .icon-discover:before { content: "\e6cf"; }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
